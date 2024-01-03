@@ -18,7 +18,7 @@ repositories {
 dependencies {
 
 	// 스프링 시큐리티
-//	implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation 'org.springframework.boot:spring-boot-starter-security'
 
 	//스프링 웹
 	implementation 'org.springframework.boot:spring-boot-starter-web'
