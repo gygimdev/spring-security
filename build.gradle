@@ -27,7 +27,9 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 
 	// 롬복
-	implementation 'org.projectlombok:lombok'
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+
 
 	// JPA
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
